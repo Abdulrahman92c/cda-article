@@ -1,12 +1,5 @@
-export const Date_now = {
-    builder() {
-        console.log("hello cest lui");
-    },
-    dates: new Date().getFullYear(),
-    el: document.querySelector("time")
-
-    // data object
-};export const articles = [{
+// data object
+export const articles = [{
     id: "article-poo",
     title: "Php and POO",
     content: "La programmation orientée objet (POO) est devenue indispensable, oui, mais pourquoi ? Parce qu'elle permet une meilleure organisation de vos projets, facilite la maintenance de votre code, et offre une grande souplesse pour faire évoluer votre logiciel sans avoir à tout réécrire",
